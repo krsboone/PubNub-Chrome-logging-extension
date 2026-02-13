@@ -13,6 +13,8 @@ Chrome browser extension that will capture console messages and runtime errors t
 
 `background.js` (service worker) receives the message, reads the saved sourceId from storage, and publishes to PubNub channel logging using the REST publish API.
 
+`force-error.html` just a simple test page that throws an error when the button is clicked | you can do better :)
+
 Default sends to PubNub channel `logging`; the same channel as other logging utilities [PubNub-device-logging](https://github.com/krsboone/PubNub-device-logging)
 
 
