@@ -12,7 +12,7 @@ function getTimestamp() {
 
 async function publishToPubNub(sourceId, logLine) {
   const payload = {
-    source: sourceId,
+    source: sourceId+'.log',
     log: logLine,
     timestamp: getTimestamp()
   };
