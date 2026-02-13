@@ -28,10 +28,10 @@ subscribeKey: "sub-key-here"
 with your pub/sub keys
 
 Loading the extension in Chrome
-Go to chrome://extensions
-Enable Developer mode (top-right toggle)
-Click Load unpacked → select the logger-extension/ folder
-Click the extension icon, enter your Source ID, and click Save & Activate
+1. Go to chrome://extensions
+2. Enable Developer mode (top-right toggle)
+3. Click Load unpacked → select the logger-extension/ dir
+4. Click the extension icon, enter your Source ID (any unique id), and click Save & Activate
 
 
 ## Recording
