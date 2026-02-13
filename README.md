@@ -36,5 +36,13 @@ Click the extension icon, enter your Source ID, and click Save & Activate
 
 ## Recording
 
+https://youtu.be/vheg9hwJ5ww
+
+
+## Todo
+
+1. Add date/time to the log line
+2. Broader testing
+
 
 
