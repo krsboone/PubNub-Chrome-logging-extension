@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 260px;
+      padding: 16px;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #222;
+    }
+    h2 {
+      font-size: 14px;
+      margin-bottom: 12px;
+      color: #e3212a;
+    }
+    label {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 6px 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 7px;
+      background: #e3212a;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    button:hover { background: #b81920; }
+    #status {
+      margin-top: 10px;
+      font-size: 12px;
+      min-height: 16px;
+    }
+    #status.active { color: #1a7f37; }
+    #status.idle   { color: #888; }
+  </style>
+</head>
+<body>
+  <h2>PubNub Console Logger</h2>
+  <label for="sourceId">Source ID</label>
+  <input type="text" id="sourceId" placeholder="Enter an identifier…" autocomplete="off">
+  <button id="saveBtn">Save &amp; Activate</button>
+  <div id="status" class="idle"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
