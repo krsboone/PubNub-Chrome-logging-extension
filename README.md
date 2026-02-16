@@ -45,7 +45,7 @@ https://youtu.be/vheg9hwJ5ww
 2. Broader testing
 3. Flood protection needs to be considered
 4. Access controls, and effeciant way for user to programmatically invoke pub/sub keys
-5. Strict userIDs vs randomly generated
+5. ~~Strict userIDs vs randomly generated~~
 
 
 
